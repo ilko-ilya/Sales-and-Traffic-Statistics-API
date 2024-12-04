@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/statistics-db
+  redis:
+    host: localhost
+    port: 6379
+#    password: YXNkZmFzZGFzZGZhZGZzZGZhc2RmYWRmYWY=
+#statistics:
+#  data-file-path: C:/test_report
+file:
+  path: "C:/Mate.academy/TestProjects/statistics-api/test_report.json"
+
+jwt:
+  secret: "helloMyDearFriends123321HelloWorld78910"
+  expiration: 3600000
